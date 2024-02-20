@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1em 0;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    background: url('path-to-your-background-image.jpg') no-repeat;
+    background-size: cover;
+    padding: 20px;
+}
+
+h1 {
+    color: #fff;
+    text-align: center;
+}
+
+#classes {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    margin: 20px 0;
+}
+
+#classes article {
+    margin-bottom: 20px;
+}
+
+#classes h2 {
+    color: #5C5C5C;
+}
+
+#classes p {
+    color: #666;
+}
+
+#savasana {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer p {
+    margin: 0;
+}
+
+audio {
+    width: 100%;
+    margin-top: 20px;
+}
+
+/* Add responsive design */
+@media (max-width: 600px) {
+    header nav ul li {
+        display: block;
+        margin-bottom: 10px;
+    }
+}
